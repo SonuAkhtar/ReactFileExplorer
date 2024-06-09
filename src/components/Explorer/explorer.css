@@ -1,0 +1,28 @@
+.exp__container {
+  height: 100%;
+}
+
+.exp__details {
+  margin: 0.5rem 1rem;
+  display: none;
+}
+
+.exp__details.show {
+  display: block;
+}
+
+.exp__name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.exp__name i {
+  color: gray;
+}
+
+.exp__name i.fa-folder {
+  color: #e7d37f;
+}
